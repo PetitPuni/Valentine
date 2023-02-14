@@ -1,0 +1,29 @@
+.card {
+  width: 70%;
+  height: 40%;
+  position: relative;
+  background-image: url('../images/roses.avif');
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 30px rgb(205, 35, 157);
+  padding: 60px 0;
+}
+
+.card__background{
+  position: absolute;
+  background: linear-gradient(180deg, rgba(235, 147, 244, 0.7) 0%, rgba(176, 58, 187,0.7) 100%);
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  border-radius: 24px 24px 24px 24px;
+  z-index: 1;
+}
+.card__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  justify-content: center;
+}
