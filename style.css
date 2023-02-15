@@ -18,6 +18,9 @@
   h1 {
     font-size: 56px;
   }
+  .container {
+    width: 100%;
+  }
 }
 
 @media (max-width: 540px) {
@@ -27,6 +30,9 @@
   }
   h1 {
     font-size: 56px;
+  }
+  .container {
+    width: 100%;
   }
 }
 
