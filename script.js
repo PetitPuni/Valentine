@@ -71,9 +71,11 @@ function togglePlay() {
   if (isPlaying) {
     myAudio.pause()
     deadpool.src = "images/deadpool-love.gif";
+    deadpool.alt = "deadpool faisant un coeur avec ses mains"
   } else {
     myAudio.play();
     deadpool.src = "images/deadpool saxo-red.gif";
+    deadpool.alt = "deadpool jouant du saxo"
   }
 };
 myAudio.onplaying = function() {
