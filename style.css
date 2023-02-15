@@ -1,6 +1,7 @@
 @import url(./components/card.css);
 
 
+
 html,body{
   height: 100vh;
   width: 100%;
@@ -25,6 +26,19 @@ h1{
   display: flex;
   margin: auto;
   justify-content: center;
+}
+
+.card__content{
+  display: flex;
+}
+
+#deadpool {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 92px;
+  border-radius: 50%;
 }
 
 

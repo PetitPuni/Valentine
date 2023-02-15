@@ -62,3 +62,27 @@ var love = setInterval(function () {
     }
   });
 }, 500);
+
+const deadpool = document.querySelector("#deadpool");
+const myAudio = document.getElementById("myAudio");
+let isPlaying = false;
+
+function togglePlay() {
+  if (isPlaying) {
+    myAudio.pause()
+    deadpool.src = "images/deadpool-love.gif";
+  } else {
+    myAudio.play();
+    deadpool.src = "images/deadpool saxo-red.gif";
+  }
+};
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};
+
+deadpool.addEventListener('click', (event) => {
+  togglePlay();
+});
